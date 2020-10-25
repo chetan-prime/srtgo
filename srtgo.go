@@ -1,7 +1,7 @@
 package srtgo
 
 /*
-#cgo LDFLAGS: -lsrt
+#cgo LDFLAGS: -lsrt-gnutls
 #include <srt/srt.h>
 static const SRTSOCKET get_srt_invalid_sock() { return SRT_INVALID_SOCK; };
 static const int get_srt_error() { return SRT_ERROR; };

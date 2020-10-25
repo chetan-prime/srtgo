@@ -1,6 +1,6 @@
 package srtgo
 
-// #cgo LDFLAGS: -lsrt
+// #cgo LDFLAGS: -lsrt-gnutls
 // #include <srt/srt.h>
 import "C"
 
